@@ -18,6 +18,9 @@ const Card = ({ image, id, name, type, refreshReceta }) => {
   const handleDetailsClick = () => {
     navigate(`/details/${id}`);
   };
+  const handleEditClick = () => {
+    navigate(`/edit/${id}`);
+  };
 
   const handleDeleteClick = async () => {
     const response = await deleteReceta(id);
@@ -35,6 +38,9 @@ const Card = ({ image, id, name, type, refreshReceta }) => {
         <div className="card-buttons">
           <button className="card-button" onClick={handleDetailsClick}>
             Detalle
+          </button>
+          <button className="card-button" onClick={handleEditClick}>
+            Editar
           </button>
           <button className="card-button" onClick={handleDeleteClick}>
             Borrar

@@ -10,12 +10,12 @@
     padding: 16px;
   }
   
-  .card-title {
+  .card-img {
     font-size: 1.25rem;
     margin: 0 0 8px;
   }
   
-  .card-wrapp-buttons {
+  .card-buttons {
     display: flex;
     justify-content: space-around;
   }

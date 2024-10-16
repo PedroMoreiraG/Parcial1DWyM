@@ -9,12 +9,12 @@
       "preparation": "Extiende la masa, añade salsa de tomate, mozzarella y hornea."
     },
     {
-      "id": "2",
-      "name": "Tacos de Pollo",
-      "description": "Tacos de pollo marinado con cebolla, cilantro y salsa.",
-      "type": "mexicana",
-      "image": "🌮",
-      "preparation": "Marina el pollo, cocínalo y sírvelo en tortillas con cebolla y cilantro."
+      "image": "Tacos",
+      "name": "",
+      "description": "",
+      "preparation": "",
+      "type": "",
+      "id": "2"
     },
     {
       "id": "3",
@@ -73,12 +73,12 @@
       "preparation": "Mezcla los ingredientes y congela, revolviendo ocasionalmente."
     },
     {
-      "id": "2461",
       "image": ":)",
-      "name": "Papa Feliz",
-      "description": "Papas al horno con Carita Feliz",
-      "preparation": "Cortar la papa, darle forma y freir a fuego bajo.",
-      "type": "Americana"
+      "name": "Papita Feliz",
+      "description": "Papa frita con forma de carita feliz",
+      "preparation": "Freir a fuego bajo papa con forma de carita feliz",
+      "type": "Americana",
+      "id": "2461"
     }
   ]
 }
