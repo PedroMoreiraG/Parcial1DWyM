@@ -1,0 +1,52 @@
+input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.home-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .home-grid-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .home-grid-cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .home-grid-cards {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .home-no-receta {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .add-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #cf5438;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #b33316;
+  }
+  
